@@ -38,8 +38,8 @@ if uploaded_file and bt:
         page = pdfdocument[page_num]
         text = page.get_text('text')
         client = InferenceClient(
-            model="deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
-            api_key="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"  # set your Hugging Face token
+            model="deepseek-ai/DeepSeek-R1",  # set your model
+            api_key="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"  # set your Huggingface token
         )
 
     msg = [

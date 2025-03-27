@@ -13,7 +13,7 @@ import fitz  # PyMuPDf
 from openai import OpenAI
 from huggingface_hub import InferenceClient
 
-client = OpenAI(api_key="???")   # set your OpenAI API key
+client = OpenAI(api_key="???")  # set your OpenAI API key
 
 st.markdown("""
 <style>
